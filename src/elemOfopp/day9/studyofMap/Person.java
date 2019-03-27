@@ -1,4 +1,4 @@
-package elemOfopp.day9.StudyOfSet;
+package elemOfopp.day9.studyofMap;
 /*
  * public 修饰的成员可以在任何范围内直接访问，只是一种最宽松的访问控制等级。
  * 需要注意的，所谓的直接访问仍需要先创建或获得一个相应类的对象然后才可以使用”对象名.
@@ -17,7 +17,7 @@ public class Person implements Comparable{
 	protected String name;
 	int id=1001;
 
-	public int getAge() {
+	public Integer getAge() {
 		return age;
 	}
 

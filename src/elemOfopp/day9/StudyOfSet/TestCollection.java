@@ -3,7 +3,19 @@ package elemOfopp.day9.StudyOfSet;
  * 1、春初对象可以考虑数组和集合
  * 2、数组存储：Student[] stu=new Student[20];stu[0]=new Student();
  *   弊端：一旦创建不可更改；真实存放的数组的对象个数不可知
- * 3、
+ * 3、集合
+ *      Collection接口
+ *               |---List接口：有序，可以重复
+ *                     |---ArrayList（主要的实现类）、LinkedList(链表，内存不在一块中，适应频繁的插入删除操作)、
+ *                       Vector（古老的实现类，线程安全的，效率低
+ *                 ）；
+ *               |---Set接口：无序，不可重复,常用的方法收拾Collection下定义的
+ *                     |---HaskSet（主要实现类）
+ *                     |---LinkedHashSet
+ *                     |---TreeSet
+ *      Map几口：存储“键-值”对的数据
+ *               |---HashMap、LinkedHashMap、TreeMap、HashTable(子类：properties)
+ *                     
  */
 
 import java.sql.Date;
