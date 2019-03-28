@@ -9,7 +9,7 @@ import org.junit.Test;
 public class TestEmpSet {
 	@Test
 	public void testComparable() {
-		Set trSet = new TreeSet();
+		Set<Employee> trSet = new TreeSet();
 		trSet.add(new Employee("samuro", 24, new MyDate(1995, 7, 28)));
 		trSet.add(new Employee("zhaoxueli", 21, new MyDate(1997, 10, 8)));
 		trSet.add(new Employee("taotao", 25, new MyDate(1994, 9, 16)));
