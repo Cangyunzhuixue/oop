@@ -63,6 +63,7 @@ public static void main(String[] args) {
 	seasons[0].show();
 	//valueOf(String):要求是形参的名字
 	System.out.println(Seasons.valueOf("SPRING"));
+	System.out.println();
 }
 
 }
