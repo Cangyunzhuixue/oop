@@ -18,9 +18,7 @@ class ThreadWindow1 extends Thread{
 	static int count=100;
 
 	@Override
-	public void run() {
-		
-		
+	public void run() {		
 		// TODO Auto-generated method stub
 		while(count>0) {
 			System.out.println(Thread.currentThread().getName()+" "+(100-count));

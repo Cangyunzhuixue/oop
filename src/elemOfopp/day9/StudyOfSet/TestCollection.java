@@ -1,6 +1,6 @@
 package elemOfopp.day9.StudyOfSet;
 /*
- * 1、春初对象可以考虑数组和集合
+ * 1、存储初对象可以考虑数组和集合
  * 2、数组存储：Student[] stu=new Student[20];stu[0]=new Student();
  *   弊端：一旦创建不可更改；真实存放的数组的对象个数不可知
  * 3、集合
@@ -25,9 +25,6 @@ import java.util.Collection;
 import java.util.Iterator;
 
 import org.junit.Test;
-
-import com.sun.org.apache.bcel.internal.generic.NEW;
-
 
 
 public class TestCollection {
