@@ -31,5 +31,33 @@ public void test() {
 	System.out.println(str1.startsWith("ab"));
 	System.out.println(str1.regionMatches(3, str2, 1, 2));
 }
+/*
+ * 1.字符串 与基本数据类型、包装类之间转换
+ * ①字符串 --->基本数据类型、包装类:调用相应的包装类的parseXxx(String str);
+ * ①基本数据类型、包装类--->字符串:调用字符串的重载的valueOf()方法
+ * 
+ * 2.字符串与字节数组间的转换
+ * ①字符串---->字节数组:调用字符串的getBytes()
+ * ②字节数组---->字符串：调用字符串的构造器
+ * 
+ * 3.字符串与字符数组间的转换
+ * ①字符串---->字符数组：调用字符串的toCharArray();
+ * ②字符数组---->字符串:调用字符串的构造器
+ */
+@Test
+public void test1() {
+	
+	//字符串与基本数据类型、包装类之间的转换
+	String str1="23";
+	int i=Integer.parseInt(str1);
+	
+	String str2=i+"";
+	str2=String.valueOf(str2);
+	//字符串与字节数组之间的转换
+	String string="abc123";
+	byte[] bs=str1.getBytes();
+	
+	
+}
 
 }
